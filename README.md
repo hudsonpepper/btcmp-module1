@@ -1,5 +1,5 @@
 # Code Refactor Starter Code
-This is test code (should not appear)
+
 ## Description
 Using code from https://github.com/coding-boot-camp/urban-octo-telegram, the code was refactored to add accessibility features. 
 
