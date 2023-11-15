@@ -1,3 +1,4 @@
+/* Universal element */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* All this is for the top of the page*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +26,6 @@ header h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 header nav {
     padding-top: 15px;
@@ -48,6 +49,21 @@ a {
     text-decoration: none;
 }
 
+#seo {
+    color: #d9dcd6;
+}
+/* This is for nice background photo for the top of the page */
+#hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* This is the main section*/
 p {
     font-size: 16px;
 }
@@ -82,6 +98,7 @@ main {
     margin-left: 20px;
 }
 
+/* This is all for the aside box */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -98,17 +115,6 @@ main {
     max-width: 150px;
 }
 
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h4 {
-    font-size: 20px;
-}
-
 #benefits {
     margin-right: 20px;
     padding: 20px;
@@ -120,15 +126,14 @@ footer h4 {
     background-color: #2589bd;
 }
 
-#hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
+/* This is formatting for the footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-#seo {
-    color: #d9dcd6;
+footer h4 {
+    font-size: 20px;
 }
